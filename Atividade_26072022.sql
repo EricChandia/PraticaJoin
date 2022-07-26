@@ -20,3 +20,4 @@ join companies on experiences."companyId" = companies.id
 join roles on experiences."roleId" = roles.id
 join users on experiences."userId" = users.id
 where "userId" = 50 and "endDate" IS NULL;
+
